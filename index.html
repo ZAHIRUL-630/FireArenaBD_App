@@ -3,53 +3,68 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FireArena BD - Download</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    body {
+    * {
       margin: 0;
-      font-family: 'Roboto', sans-serif;
-      background-color: #0d0d0d;
-      color: #ffffff;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      color: white;
+      height: 100vh;
       display: flex;
       flex-direction: column;
-      align-items: center;
       justify-content: center;
-      height: 100vh;
-      padding: 20px;
+      align-items: center;
       text-align: center;
+      padding: 20px;
     }
     .logo {
-      width: 200px;
-      height: auto;
+      width: 180px;
       margin-bottom: 30px;
     }
     h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
+      font-size: 2.8rem;
+      margin-bottom: 15px;
+      letter-spacing: 2px;
     }
     p {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       margin-bottom: 30px;
+      max-width: 600px;
     }
-    a.download-button {
-      background-color: #ff8c00;
+    .download-btn {
+      padding: 15px 40px;
+      background: #00ffc3;
       color: #000;
-      text-decoration: none;
-      padding: 15px 30px;
       font-size: 1.2rem;
-      border-radius: 10px;
       font-weight: bold;
-      transition: background-color 0.3s ease;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s;
+      box-shadow: 0 0 20px #00ffc3, 0 0 40px #00ffc3;
+      text-decoration: none;
     }
-    a.download-button:hover {
-      background-color: #e67600;
+    .download-btn:hover {
+      background: #00cc9f;
+      box-shadow: 0 0 25px #00cc9f, 0 0 50px #00cc9f;
     }
     .footer {
       margin-top: 40px;
-      font-size: 0.9rem;
-      color: #999;
+      font-size: 0.8rem;
+      color: #aaa;
     }
   </style>
 </head>
 <body>
-  <img src="firearena-logo.png 
+  <img src="logo.png" alt="FireArena BD Logo" class="logo">
+  <h1>FireArena BD</h1>
+  <p>The ultimate Free Fire tournament platform designed for Bangladeshi gamers. Download now and join the battlefield!</p>
+  <a class="download-btn" href="FireArena-BD.apk" download>⬇ Download APK</a>
+  <div class="footer">&copy; 2025 FireArena BD. Powered by Gamers, For Gamers.</div>
+</body>
+</html>
