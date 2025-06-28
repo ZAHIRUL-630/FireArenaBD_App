@@ -1,3 +1,4 @@
+css
 * {
   margin: 0;
   padding: 0;
@@ -26,9 +27,9 @@ html, body {
 }
 
 .logo {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: bold;
-  color: #10b981;
+  color: #ef4444;
   margin-bottom: 10px;
 }
 
@@ -67,6 +68,7 @@ html, body {
 .illustration img {
   width: 100%;
   max-width: 300px;
+  border-radius: 10px;
 }
 
 .top-banner {
